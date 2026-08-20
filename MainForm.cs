@@ -30,11 +30,24 @@ namespace AllAboutThatBraille
         {
             this.Hide();
 
-            using(AboutForm aboutForm = new AboutForm())
+            // this code makes it so that when the window is closed it shows the main form
+            using (AboutForm aboutForm = new AboutForm())
             {
                 aboutForm.ShowDialog();
             }
 
+            this.Show();
+        }
+
+        private void learnBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            using (LearnForm learnForm = new LearnForm())
+            {
+                learnForm.ShowDialog();
+            }
+               
             this.Show();
         }
     }

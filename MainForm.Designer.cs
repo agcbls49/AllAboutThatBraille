@@ -64,7 +64,7 @@
             aboutBtn.TabIndex = 2;
             aboutBtn.Text = "About the App";
             aboutBtn.UseVisualStyleBackColor = false;
-            aboutBtn.Click += this.aboutBtn_Click;
+            aboutBtn.Click += aboutBtn_Click;
             // 
             // quizBtn
             // 
@@ -91,6 +91,7 @@
             learnBtn.TabIndex = 4;
             learnBtn.Text = "Learn Braille";
             learnBtn.UseVisualStyleBackColor = false;
+            learnBtn.Click += learnBtn_Click;
             // 
             // contextMenuStrip1
             // 
